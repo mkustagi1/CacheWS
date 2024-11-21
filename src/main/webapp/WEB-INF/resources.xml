@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Container id="Stateless Container" type="STATELESS">
+    accessTimeout = 30 seconds
+    callbackThreads = 5
+    closeTimeout = 5 minutes
+    garbageCollection = false
+    idleTimeout = 0 minutes
+    maxAge = 0 hours
+    maxAgeOffset = -1
+    maxSize = 10000
+    minSize = 0
+    replaceAged = true
+    replaceFlushed = false
+    strictPooling = true
+    sweepInterval = 5 minutes
+</Container>
